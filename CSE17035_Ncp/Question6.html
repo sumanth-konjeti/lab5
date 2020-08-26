@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Interest</title>
+    </head>
+    <body>
+        <script type="text/javaScript">
+            function simpl(){ 
+            var p,r,t;
+              p = parseFloat(prompt("Enter the Principle Value"));
+              r = parseFloat(prompt("Enter the Rate Amount"));
+              t = parseFloat(prompt("Enter the time(number of years)"));
+            var si = (p*r*t)/100;
+            document.write("Simple Interest Calculated Anually is"+si);
+            }
+        </script>
+        <h1>Simple Interest Calculation</h1>
+        <center>
+             <input type="button" value="Calculate Simple Interest" onclick="simpl()">
+        </center>
+    </body>
+</html>

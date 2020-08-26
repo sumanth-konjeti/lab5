@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+    <title>Button animation</title>
+
+    <script type="text/javascript">
+    
+
+        function changeBackground(id, color) {
+
+            document.getElementById(id).style.background = color;
+
+        }
+        function imageClick(url) {
+              window.location = url;
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <div id="Div_1" onmouseover="changeBackground(this.id, '#FF0000');"
+
+        onmouseout="changeBackground(this.id, '#0000FF');">
+        <center>
+         <img src="worldmap.jpeg" alt="worldmap" class="thumbnails" onclick="imageClick('Question2.html')">
+        </center>
+    </div>
+
+</body>
+
+</html>
